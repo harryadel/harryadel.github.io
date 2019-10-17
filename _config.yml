@@ -1,0 +1,56 @@
+title: Personal Blog
+description: My Personal Blog
+author: Harry Adel
+github: https://github.com/harryadelb
+about: I'm a MeteorJS developer. And this is my personal blog.
+# disqus_shortname: stackproblems
+# google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    # - icon: fa-facebook
+    #   link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/harryadelb"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/harryadelb/"
+    - icon: fa-stack-exchange
+      link: "https://stackoverflow.com/users/6688795/harry-adel"
+    - icon: fa-github
+      link: "https://github.com/harryadelb"
+
+share:
+  twitter_username: github.io
+  # fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://harryadelb.github.io/"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
