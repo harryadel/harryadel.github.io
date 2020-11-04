@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "My online talk"
+title:  "My first online talk"
 date:   2020-11-4 10:10:01 pm
 categories: [meteorjs, talk]
 ---
 
-Recently, I [presented](https://docs.google.com/presentation/d/12dH-dFrk0VdSDK6TY5QwJCEOMBSh3OXCI-vr_77iJp8/edit?usp=sharing) my first *online* talk ever at [Meteor Impact](impact.meteor.com/). The talk was called "Securing Your Meteor Application" detailing my learnings about Meteor's security and most recently my the tips I learnt reading [[Secure Meteor](https://www.securemeteor.com/). 
+Recently, I [presented](https://docs.google.com/presentation/d/12dH-dFrk0VdSDK6TY5QwJCEOMBSh3OXCI-vr_77iJp8/edit?usp=sharing) my first *online* talk ever at [Meteor Impact](impact.meteor.com/). The talk was called "Securing Your Meteor Application" detailing my learnings about Meteor's security and most recently my the tips I learnt reading [Secure Meteor](https://www.securemeteor.com/). 
 
 I was super intimidated since this talks was to be made in English which isn't my naitve language and was quite fearful of how people would perceive it. Would they be able to understand me, I pondered. This wasn't my first talk per se, I did present at a [EgyptJS](https://docs.google.com/presentation/d/1T7jLO-2zWc9YTuWh-TU-e1Xp5FxNaDBXN_xgzPIAbTw/edit?usp=sharing), a local meetup, before. But doing it in a foregin language was quite new for me. The speakers had two options either present the talk live or pre-record it, I went with the latter since I wasn't confident in my internet connection and pre-recording things would be a lot more comfortable.
 
