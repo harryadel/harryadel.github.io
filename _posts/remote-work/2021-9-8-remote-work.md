@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: ar
 title:  "الشغل الريموت"
 date:   2021-9-8 0:40:01 am
 categories: [work, others]
