@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first blog post"
+title:  "الشغل الريموت"
 date:   2021-9-8 0:40:01 am
 categories: [work, others]
 ---
