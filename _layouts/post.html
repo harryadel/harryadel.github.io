@@ -7,7 +7,7 @@ layout: compress
 
 {% include header.html %}
 
-<body data-theme="{{ site.mode }}" class="notransition">
+<body data-theme="{{ site.mode }}" class="notransition" direction="{{ page.direction | default: "ltr" }}">
 
   <script>
     const body = document.body;
