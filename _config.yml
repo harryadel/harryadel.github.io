@@ -4,7 +4,7 @@ description: >- # site description
   A personal blog documenting things that I've learned, meet me <a href="https://github.com/harryadel" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Africa/Cairo # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+# image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/harryadel/harryadel.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
