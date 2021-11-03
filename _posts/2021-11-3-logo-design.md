@@ -34,3 +34,5 @@ When you cold email people I think it's super important to layout your request a
 Needless to say, Sacha was super cool and was able to deliver a design almost immediately. He was also super patient with my requests. He even offered me to do some open source in case the payment was too much for me. Great guy!
 
 I guess there's not much to say but I felt this is something worth documenting, at least for me. Since getting a logo was something I had always wanted and Sacha being the author made it ten times cooler!
+
+![BEHOLD THE AWESOMENESS](/assets/img/avatar.png)
