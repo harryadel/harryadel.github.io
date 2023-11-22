@@ -51,6 +51,8 @@ The holy grail of military life -- Vacations. Everybody wants time off. Everybod
 
 A corner stone of the Egyptian culture, and Egyptian army is no exception. Wasta's are only bound by your imagination and well.. who you know and what he can do for you. But if you can imagine it then it can happen. The reach of your Wasta can be as simple as helping you get favorable treatment, having you serve in a place closer to your home, less chores and all the way to not showing up yet still receiving your certificate or dodging the service completely by faking medical examinations at the beginning. I was once heard an officer blatantly telling friend that he has to summon the new recruit quick and talk to him so he can call over his parents and let them know that "Wasta" worked! This was a regular everyday thing for him.  
 
+I'm proud that I went through without the use of any "Wasta" and got the whole raw unfiltered authentic experience which adds to my credibility. But honestly the more I think about it I wonder how different or pleasant my experience would have been.  
+
 ### Stealing
 
 Ah yes, like fish to the water. I've come to believe that if you haven't been stolen at least once during your army then sadly you didn't go to the army. It must happen for you at least once to have an authentic army experience. Stealing for some is a way of survival. And some excuse at as result of the poor financial condition of the recruits. It's quite common for the new recruits to get their military gear (especially boots) stolen once they arrive at their units. Senior recruits gear get worn out so why purchase new when you can snatch a full brand new gear?
