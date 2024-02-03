@@ -7,7 +7,7 @@ categories: [meteorjs, oss]
 
 Hi, I intend now to publish a mini-blog post at the end of each month to illustrate what I've been working on and to communicate to my sponsors my plans.
 
-Thanks to [Daniel](https://github.com/DanielDornhardt) & [Trusted](https://trusted.care/) I was able to migrate many packages to async that we use in our application:
+Thanks to [Daniel](https://github.com/DanielDornhardt) & [Trusted Care](https://trusted.care/) I was able to migrate many packages to async that we use in our application:
 
 - Building upon Quave's PR to update the original [synced-cron](https://github.com/percolatestudio/meteor-synced-cron/pull/150)
 - Asyncify [meteor-keyvaluestore](https://github.com/theduke/meteor-keyvalstore/pull/2)
