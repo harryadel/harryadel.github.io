@@ -5,7 +5,7 @@ date:   2024-2-3 1:40:00 am
 categories: [meteorjs, oss]
 ---
 
-Hi, I intend now to publish a mini-blog post at the end of each month to illustrate what I've been working on and to communicate to my sponsors my plans.
+Hi, I intend now to publish a mini-blog post at the end of each month to illustrate what I've been working on and to communicate my plans to my sponsors.
 
 Thanks to [Daniel](https://github.com/DanielDornhardt) & [Trusted Care](https://trusted.care/) I was able to migrate many packages to async that we use in our application:
 
