@@ -11,8 +11,10 @@ I took some time to dig through my old accounts and gather whatever data I could
 
 ## Act 1: The Adventures of Fancy Pants
 
-<img src="/assets/img/fancy_pants.jpg" alt="The Adventures of Fancy Pants" width="800" height="400"/>
+<div style="background-color: #f5f5f5; padding: 20px 0; margin: 20px 0;">
+<img src="/assets/img/fancy_pants.jpg" alt="The Adventures of Fancy Pants" width="1200" height="600" style="display: block; margin: 0 auto;"/>
 *The Adventures of Fancy Pants - Where it all began*
+</div>
 
 It all began with a teenage version of me yearning for financial independence. Growing up with somewhat restrictive parents, I lacked the social connections that typically help teenagers land their first jobs like waiting tables or working at fast food restaurants. My arsenal consisted of a humble 2GB RAM computer (which would freeze if you dared open more than three tabs) and a 512 kbps internet connection that crawled along at 30-50 kbps during downloads.
 
