@@ -70,7 +70,7 @@ While all three platforms were excellent, freeCodeCamp stood out. The web is ful
 
 You can still find all my Codepen projects [here](https://codepen.io/harryadel). I'll admit - I sometimes looked up answers for algorithm challenges online. To this day, I haven't completed all the challenges.
 
-<img src="/assets/img/algorithm_challenge.png" alt="freecodecamp algorithm challenges" width="800" height="400"/>
+<img src="/assets/img/algorithm_challenge.png" alt="freecodecamp algorithm challenges" width="800" height="600"/>
 *The not so complete algorithm challenges*
 
 This period marked my greatest skill development. I also switched to Linux to improve my computer's performance, which proved beneficial later.
