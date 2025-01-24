@@ -130,7 +130,10 @@ I completed the project on time and sent it to Maher. When I told my mother, she
 
 ## Act 4: The Happy Ending: Fixed Solutions
 
-<img src="/assets/img/fixed_solutions_logo.jpg" alt="Your partner in success" width="400" height="400"/>
+<p align="center">
+  <img src="/assets/img/fixed_solutions_logo.jpg" alt="Your partner in success" width="400" height="400"/>
+</p>
+
 *Fixed Solutions - My first tech home*
 
 [Fixed Solutions](https://www.linkedin.com/company/fixed-solutions/) became my perfect first workplace. Their culture emphasized learning and nurturing talent, welcoming newcomers to technology and tolerating mistakes. I knew many others who got their start there.
