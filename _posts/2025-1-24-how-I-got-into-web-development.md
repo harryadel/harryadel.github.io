@@ -118,19 +118,19 @@ I dove into development at home, following his recommendation to learn Meteor th
 
 I faced two challenges: downloading Meteor CLI was painfully slow, and running it would freeze my computer. Years later, I discovered why - Meteor downloads a [SQL file](https://forums.meteor.com/t/weirdness-of-meteorjs/51560/16?u=harry97) containing all database information.
 
-<img src="/assets/img/packages_database.png" alt="Meteor packages database" width="800" height="450"/>
+<img src="/assets/img/packages_database.png" alt="Meteor packages database" width="1000" height="229"/>
 *Couple megabytes wouldn't be a problem, right?*
 
 I found a workaround using Cloud9 as a remote development environment (pre-Amazon acquisition) - I even have a directory [screenshot](https://forums.meteor.com/t/how-to-subscribe-to-a-collection-on-client-side-and-display-data/38633/5?u=harry97) to prove it! My first forum posts were about building this application ([1](https://forums.meteor.com/t/autovalue-fails-to-return-a-value/38598), [2](https://forums.meteor.com/t/autoform-refuses-to-carry-out-form-submission/38601/1), [3](https://forums.meteor.com/t/how-to-subscribe-to-a-collection-on-client-side-and-display-data/38633)). Special thanks to [Rob Fallows](https://forums.meteor.com/u/robfallows) and [Kelly Copley](https://forums.meteor.com/u/copleykj/summary)!
 
 I completed the project on time and sent it to Maher. When I told my mother, she was skeptical - surely they wouldn't hire someone so young.
 
-<img src="/assets/img/success.png" alt="Congratulations!" width="700" height="450"/>
+<img src="/assets/img/success.png" alt="Congratulations!" width="1000" height="260"/>
 *The email that started my professional career*
 
 ## Act 4: The Happy Ending: Fixed Solutions
 
-<img src="/assets/img/fixed_solutions_logo.jpg" alt="Your partner in success" width="800" height="450"/>
+<img src="/assets/img/fixed_solutions_logo.jpg" alt="Your partner in success" width="400" height="400"/>
 *Fixed Solutions - My first tech home*
 
 [Fixed Solutions](https://www.linkedin.com/company/fixed-solutions/) became my perfect first workplace. Their culture emphasized learning and nurturing talent, welcoming newcomers to technology and tolerating mistakes. I knew many others who got their start there.
