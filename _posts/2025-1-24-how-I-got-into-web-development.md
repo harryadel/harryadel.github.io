@@ -91,13 +91,13 @@ I'd been working through freeCodeCamp during my last years of high school and fi
 
 I applied to seven companies. The first rejected me as underqualified, confirming my self-doubts, but I had no choice but to persist.
 
-<img src="/assets/img/wuzzuf_1.png" alt="Wuzzuf attempts #1" width="800" height="400"/>
+<img src="/assets/img/wuzzuf_1.png" alt="Wuzzuf attempts #1" width="700" height="400"/>
 *Early job application attempts*
 
-<img src="/assets/img/wuzzuf_2.png" alt="Wuzzuf attempts #2" width="800" height="400"/>
+<img src="/assets/img/wuzzuf_2.png" alt="Wuzzuf attempts #2" width="700" height="400"/>
 *More job applications - persistence was key*
 
-<img src="/assets/img/Fixed_solutions.png" alt="My application to Fixed Solutions" width="800" height="400"/>
+<img src="/assets/img/Fixed_solutions.png" alt="My application to Fixed Solutions" width="700" height="400"/>
 *ES6, NPM, Webpack. I clearly had it all*
 
 Then came an email requesting me to convert a PSD design into a working HTML website.
