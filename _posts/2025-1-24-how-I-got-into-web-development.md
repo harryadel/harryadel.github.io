@@ -42,7 +42,7 @@ I thought I had struck gold - the game was simple enough to create without needi
 
 Reality hit hard when I tried publishing on [Kongregate](https://kongregate.com/) and [Newgrounds](https://newgrounds.com/). Turns out, you earn mere [cents](https://newgrounds.fandom.com/wiki/Revenue_Sharing#:~:text=Generally%2C%20if%20a%20user%20happens,provide%20a%20consistant%20comparison%20rate.) per thousand views!
 
-<img src="/assets/img/cents.png" alt="For every thousand views, you get few cents" width="800" height="400"/>
+<img src="/assets/img/cents.png" alt="$0.30 per 1000 views" width="800" height="400"/>
 *The harsh reality of Flash game monetization*
 
 The harsh truth came after months of learning and development - I wish I'd researched the monetization aspect earlier. This marked the end of my game development dreams. Creating games demands far more than coding skills, and doing it solo is nearly impossible, especially for someone still learning to code. Between mastering programming, art, music composition, and game design - it was overwhelming. I hope this helps you appreciate the immense effort that goes into video game creation.
@@ -66,12 +66,12 @@ I also completed the [JavaScript courses](https://www.khanacademy.org/computing/
 While all three platforms were excellent, freeCodeCamp stood out. The web is full of scattered courses, but freeCodeCamp provided a clear learning path. I spent countless hours on their official [Gitter](https://github.com/freeCodeCamp/gitter-history) channel collecting those precious "brownies." I even found an old chat where I helped another student.
 
 <img src="/assets/img/gitter_chat.png" alt="Helping out a fellow student" width="800" height="400"/>
-*My first time helping another programmer*
+*Well yes, I'm an expert programmer, How did you know?*
 
 You can still find all my Codepen projects [here](https://codepen.io/harryadel). I'll admit - I sometimes looked up answers for algorithm challenges online. To this day, I haven't completed all the challenges.
 
-<img src="/assets/img/algorithm_challenge.png" alt="Not so complete algorithm challenges" width="800" height="400"/>
-*Progress through freeCodeCamp's algorithm challenges*
+<img src="/assets/img/algorithm_challenge.png" alt="freecodecamp algorithm challenges" width="800" height="400"/>
+*The not so complete algorithm challenges*
 
 This period marked my greatest skill development. I also switched to Linux to improve my computer's performance, which proved beneficial later.
 
@@ -82,7 +82,7 @@ My test scores were average, and unlike my brother, I didn't qualify for medical
 ## Act 3: Wuzzuf: The Last Stand
 
 <img src="/assets/img/wuzzuf_logo.jpg" alt="Egypt #1 Online Recruiting Platform" width="800" height="400"/>
-*Wuzzuf - Where my professional journey began*
+*Egypt #1 Online Recruiting Platform*
 
 I'd been working through freeCodeCamp during my last years of high school and first year of university. According to online advice, I needed at least the "Front End Development Libraries" certification. While I was comfortable with HTML, CSS & jQuery, React proved challenging. After getting caught in analysis paralysis, I tried switching to Vue. Going nowhere and feeling parental pressure, I decided to create a Wuzzuf account and start job hunting instead of waiting for perfect skills.
 
@@ -97,8 +97,8 @@ I applied to seven companies. The first rejected me as underqualified, confirmin
 <img src="/assets/img/wuzzuf_2.png" alt="Wuzzuf attempts #2" width="800" height="400"/>
 *More job applications - persistence was key*
 
-<img src="/assets/img/Fixed_solutions.png" alt="ES6? Clearly I knew what I was doing." width="800" height="400"/>
-*My application to Fixed Solutions*
+<img src="/assets/img/Fixed_solutions.png" alt="My application to Fixed Solutions" width="800" height="400"/>
+*ES6, NPM, Webpack. I clearly had it all*
 
 Then came an email requesting me to convert a PSD design into a working HTML website.
 
@@ -118,8 +118,8 @@ I dove into development at home, following his recommendation to learn Meteor th
 
 I faced two challenges: downloading Meteor CLI was painfully slow, and running it would freeze my computer. Years later, I discovered why - Meteor downloads a [SQL file](https://forums.meteor.com/t/weirdness-of-meteorjs/51560/16?u=harry97) containing all database information.
 
-<img src="/assets/img/packages_database.png" alt="Couple megabytes wouldn't be a problem, right?" width="800" height="400"/>
-*Understanding Meteor's package system*
+<img src="/assets/img/packages_database.png" alt="Meteor packages database" width="800" height="400"/>
+*Couple megabytes wouldn't be a problem, right?*
 
 I found a workaround using Cloud9 as a remote development environment (pre-Amazon acquisition) - I even have a directory [screenshot](https://forums.meteor.com/t/how-to-subscribe-to-a-collection-on-client-side-and-display-data/38633/5?u=harry97) to prove it! My first forum posts were about building this application ([1](https://forums.meteor.com/t/autovalue-fails-to-return-a-value/38598), [2](https://forums.meteor.com/t/autoform-refuses-to-carry-out-form-submission/38601/1), [3](https://forums.meteor.com/t/how-to-subscribe-to-a-collection-on-client-side-and-display-data/38633)). Special thanks to [Rob Fallows](https://forums.meteor.com/u/robfallows) and [Kelly Copley](https://forums.meteor.com/u/copleykj/summary)!
 
