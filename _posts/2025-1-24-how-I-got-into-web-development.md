@@ -42,7 +42,7 @@ I thought I had struck gold - the game was simple enough to create without needi
 
 Reality hit hard when I tried publishing on [Kongregate](https://kongregate.com/) and [Newgrounds](https://newgrounds.com/). Turns out, you earn mere [cents](https://newgrounds.fandom.com/wiki/Revenue_Sharing#:~:text=Generally%2C%20if%20a%20user%20happens,provide%20a%20consistant%20comparison%20rate.) per thousand views!
 
-<img src="/assets/img/cent.png" alt="For every thousand views, you get few cents" width="800" height="400"/>
+<img src="/assets/img/cents.png" alt="For every thousand views, you get few cents" width="800" height="400"/>
 *The harsh reality of Flash game monetization*
 
 The harsh truth came after months of learning and development - I wish I'd researched the monetization aspect earlier. This marked the end of my game development dreams. Creating games demands far more than coding skills, and doing it solo is nearly impossible, especially for someone still learning to code. Between mastering programming, art, music composition, and game design - it was overwhelming. I hope this helps you appreciate the immense effort that goes into video game creation.
