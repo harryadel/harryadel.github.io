@@ -95,7 +95,7 @@ I applied to seven companies. The first rejected me as underqualified, confirmin
 *Early job application attempts*
 
 <img src="/assets/img/wuzzuf_2.png" alt="Wuzzuf attempts #2" width="500" height="635"/>
-*More job applications - persistence was key*
+
 
 <img src="/assets/img/Fixed_solutions.png" alt="My application to Fixed Solutions" width="1000" height="344"/>
 *ES6, NPM, Webpack. I clearly had it all*
