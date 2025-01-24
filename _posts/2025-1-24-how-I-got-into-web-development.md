@@ -113,7 +113,7 @@ He reviewed my task but questioned my table implementation. When I explained my 
 
 I dove into development at home, following his recommendation to learn Meteor through [meteortips](https://web.archive.org/web/20230328073733/http://meteortips.com/). I decided to create a URL shortener - you can find the [repository here](https://github.com/harryadel/meteor-url-shortener).
 
-<img src="/assets/img/first_interview_material.png" alt="He sent me study material" width="800" height="400"/>
+<img src="/assets/img/first_interview_material.png" alt="He sent me study material" width="700" height="350"/>
 *The study materials from my future boss*
 
 I faced two challenges: downloading Meteor CLI was painfully slow, and running it would freeze my computer. Years later, I discovered why - Meteor downloads a [SQL file](https://forums.meteor.com/t/weirdness-of-meteorjs/51560/16?u=harry97) containing all database information.
@@ -125,7 +125,7 @@ I found a workaround using Cloud9 as a remote development environment (pre-Amazo
 
 I completed the project on time and sent it to Maher. When I told my mother, she was skeptical - surely they wouldn't hire someone so young.
 
-<img src="/assets/img/success.png" alt="Congratulations!" width="800" height="400"/>
+<img src="/assets/img/success.png" alt="Congratulations!" width="700" height="350"/>
 *The email that started my professional career*
 
 ## Act 4: The Happy Ending: Fixed Solutions
