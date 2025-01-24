@@ -86,8 +86,8 @@ My test scores were average, and unlike my brother, I didn't qualify for medical
 
 I'd been working through freeCodeCamp during my last years of high school and first year of university. According to online advice, I needed at least the "Front End Development Libraries" certification. While I was comfortable with HTML, CSS & jQuery, React proved challenging. After getting caught in analysis paralysis, I tried switching to Vue. Going nowhere and feeling parental pressure, I decided to create a Wuzzuf account and start job hunting instead of waiting for perfect skills.
 
-<img src="/assets/img/certificates.png" alt="Gotta catch 'em all!" width="800" height="400"/>
-*My collection of early programming certificates*
+<img src="/assets/img/certificates.png" alt="Gotta catch 'em all!" width="750" height="400"/>
+*I had to attain all these certificates*
 
 I applied to seven companies. The first rejected me as underqualified, confirming my self-doubts, but I had no choice but to persist.
 
