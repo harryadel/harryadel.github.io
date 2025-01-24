@@ -34,10 +34,10 @@ Facing these realities, I scaled down my ambitions. I designed a simple puzzle g
 
 I thought I had struck gold - the game was simple enough to create without needing extensive audio or visual assets, and it could potentially be ported to mobile phones where puzzle games were thriving.
 
-<img src="/assets/img/newgrounds.png" alt="Newgrounds" width="800" height="400"/>
+<img src="/assets/img/newgrounds.png" alt="Newgrounds" width="700" height="400"/>
 *Newgrounds - One of the popular Flash game platforms*
 
-<img src="/assets/img/kongregate.png" alt="Kongregate" width="800" height="400"/>
+<img src="/assets/img/kongregate.png" alt="Kongregate" width="700" height="400"/>
 *Kongregate - Another major Flash gaming platform*
 
 Reality hit hard when I tried publishing on [Kongregate](https://kongregate.com/) and [Newgrounds](https://newgrounds.com/). Turns out, you earn mere [cents](https://newgrounds.fandom.com/wiki/Revenue_Sharing#:~:text=Generally%2C%20if%20a%20user%20happens,provide%20a%20consistant%20comparison%20rate.) per thousand views!
