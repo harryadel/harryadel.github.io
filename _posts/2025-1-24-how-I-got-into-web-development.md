@@ -102,8 +102,8 @@ I applied to seven companies. The first rejected me as underqualified, confirmin
 
 Then came an email requesting me to convert a PSD design into a working HTML website.
 
-<img src="/assets/img/interview_test.png" alt="A new challenger approaches" width="800" height="400"/>
-*The coding test that changed everything*
+<img src="/assets/img/interview_test.png" alt="An image of the website I had to create" width="800" height="400"/>
+*A new challenger approaches*
 
 My submission was accepted, leading to an interview with a man in his thirties - the perfect age to connect with young energy while having substantial experience. This man, [Maher Samir](https://www.linkedin.com/in/maher-samir/), became my first boss. I was fortunate that he recognized my backend potential.
 
