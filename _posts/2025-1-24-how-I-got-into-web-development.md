@@ -25,7 +25,7 @@ My programming journey began with [Unity](https://unity.com/). One of my first a
 
 I chose to learn "UnityScript," a JavaScript variant. Unity offered an excellent [tutorial](https://learn.unity.com/project/space-shooter-tutorial) for building a 2D space shooter game. I vividly remember my first [Stack Overflow-style answer](https://discussions.unity.com/t/ending-space-shooter-game/110138). Looking back, I'm proud of my younger self for taking the criticism constructively. I wonder if that respondent knew they were talking to a 16-year-old non-native English speaker juggling both programming concepts and communication in a foreign language.
 
-<img src="/assets/img/stackoverflow_answer.png" alt="Stackoverflow answer on Unity forums" width="800" height="400"/>
+<img src="/assets/img/stackoverflow_answer.png" alt="Stackoverflow answer on Unity forums" width="1000" height="272"/>
 *My first encounter with Stack Overflow-style feedback*
 
 Unity's interface was remarkably intuitive. After completing the tutorial, I gained a basic understanding of game development, but also realized its complexity. Creating a game involves much more than just coding - you need sound effects, background music, assets, visuals, and a compelling story. The coding is just a small piece of the puzzle.
