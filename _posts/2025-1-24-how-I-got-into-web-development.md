@@ -56,8 +56,8 @@ I persevered with coding and discovered [Codecademy](https://www.codecademy.com/
 
 Then came a pivotal moment - while searching for free web development resources, I found a Quora answer recommending "freeCodeCamp."
 
-<img src="/assets/img/Quora.png" alt="Thank you random Quora stranger!" width="800" height="400"/>
-*The Quora answer that changed my path*
+<img src="/assets/img/Quora.png" alt="A Quora answer recommending freeCodeCamp" width="800" height="400"/>
+*Thank you random Quora stranger!*
 
 The old freeCodeCamp had this distinctive yellow and green color scheme - an eyesore, but memorable in the best way.
 
