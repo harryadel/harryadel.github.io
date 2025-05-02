@@ -1,7 +1,7 @@
 # Site settings
 title: Harry Adel # site title
 description: >- # site description
-  A personal blog documenting things that I've learned, meet me <a href="https://github.com/harryadel" target="_blank" rel="noopener">@github</a>.
+  A personal blog documenting things that I've learned, meet me <a href="https://github.com/harryadel" target="_blank" rel="noopener">@harryadel</a>.
 lang: en-US # default lang
 timezone: Africa/Cairo # set your timezone
 # image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
