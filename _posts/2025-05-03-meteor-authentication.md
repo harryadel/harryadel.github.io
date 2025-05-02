@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Meteor's Authentication System: An In-Depth Look"
-date: 2025-05-03 12:16:00 pm
+date: 2025-05-03 12:16:00 am
 categories: [meteorjs, oss]
 ---
 
