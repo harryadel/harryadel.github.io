@@ -448,7 +448,7 @@ The Meteor authentication flow can be summarized in these steps:
 This elegant, modular architecture is what makes Meteor's authentication system so powerful yet easy to use, allowing developers to implement secure authentication with minimal effort while providing hooks for customization at every step.
 
 <p align="center">
-  <img src="/assets/img/meteor-authentication-flow.png" alt="Meteor Authentication Flow" width="1200" height="650"/>
+  <img src="/assets/img/meteor_authentication_diagram.png" alt="Meteor Authentication Flow" width="1200" height="650"/>
 </p>
 
 ## Design Considerations and Trade-offs
