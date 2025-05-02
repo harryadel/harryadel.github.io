@@ -17,9 +17,9 @@ Meteor's accounts system is widely recognized as a key factor in the framework's
 
 When a user attempts to log in, the process begins with one of these methods:
 
-- `Meteor.loginWithPassword(selector, password, callback)` - For password-based authentication
-- `Meteor.loginWithX()` - For OAuth providers (like Facebook, Google, etc.)
-- `Accounts.createUser(options, callback)` - For new user registration
+* `Meteor.loginWithPassword(selector, password, callback)` - For password-based authentication
+* `Meteor.loginWithX()` - For OAuth providers (like Facebook, Google, etc.)
+* `Accounts.createUser(options, callback)` - For new user registration
 
 Let's examine the normal flow of `Meteor.loginWithPassword`:
 
@@ -66,9 +66,9 @@ const internalLoginWithPassword = ({ selector, password, code, callback }) => {
 
 This function:
 
-- Determines whether to search for the user by username or email based on whether the selector contains an "@" symbol
-- Hashes the password using SHA-256 for secure transmission
-- Calls the login method with the prepared credentials
+* Determines whether to search for the user by username or email based on whether the selector contains an "@" symbol
+* Hashes the password using SHA-256 for secure transmission
+* Calls the login method with the prepared credentials
 
 The password hashing happens with:
 
@@ -137,11 +137,11 @@ Accounts.registerLoginHandler("password", async options => {
 
 This handler:
 
-- Verifies that the request is for password authentication
-- Validates the request format
-- Looks up the user by username or email
-- Checks if the user exists and has a password set
-- Verifies the password hash against the stored hash
+* Verifies that the request is for password authentication
+* Validates the request format
+* Looks up the user by username or email
+* Checks if the user exists and has a password set
+* Verifies the password hash against the stored hash
 
 #### 3.2. Attempting Login
 
@@ -204,10 +204,10 @@ async _attemptLogin(methodInvocation, methodName, methodArgs, result) {
 
 This method:
 
-- Creates an "attempt" object with information about the login attempt
-- Runs validation hooks via `_validateLogin`, allowing developers to implement custom logic
-- If allowed, calls `_loginUser` to complete the login process
-- Triggers success or failure hooks accordingly
+* Creates an "attempt" object with information about the login attempt
+* Runs validation hooks via `_validateLogin`, allowing developers to implement custom logic
+* If allowed, calls `_loginUser` to complete the login process
+* Triggers success or failure hooks accordingly
 
 ### 4. Token Generation and Association
 
@@ -242,11 +242,11 @@ async _loginUser(methodInvocation, userId, stampedLoginToken) {
 
 This method:
 
-- Generates a new login token if one wasn't provided
-- Associates the token with the user in the database
-- Sets the token on the DDP connection
-- Associates the user ID with the method invocation
-- Returns the token and its expiration to the client
+* Generates a new login token if one wasn't provided
+* Associates the token with the user in the database
+* Sets the token on the DDP connection
+* Associates the user ID with the method invocation
+* Returns the token and its expiration to the client
 
 A token is generated using:
 
@@ -326,9 +326,9 @@ _setLoginToken(userId, connection, newToken) {
 
 This function:
 
-- Maintains a mapping of connection IDs to login tokens
-- Sets up an observer to watch for token removal in the database
-- Closes the connection if the token is removed (e.g., during logout)
+* Maintains a mapping of connection IDs to login tokens
+* Sets up an observer to watch for token removal in the database
+* Closes the connection if the token is removed (e.g., during logout)
 
 ### 7. Automatic Token Resume
 
@@ -478,26 +478,26 @@ Meteor chose localStorage as its primary token storage mechanism, as explained i
 
 **Potential Vulnerabilities**:
 
-- Susceptibility to XSS attacks (attackers can access localStorage via injected JavaScript)
-- Accessibility to all JavaScript in the same origin, including third-party libraries
-- No built-in expiration mechanism
-- Limited to string data, requiring serialization/deserialization for complex structures
+* Susceptibility to XSS attacks (attackers can access localStorage via injected JavaScript)
+* Accessibility to all JavaScript in the same origin, including third-party libraries
+* No built-in expiration mechanism
+* Limited to string data, requiring serialization/deserialization for complex structures
 
 **Security Best Practices**:
 
-- Always use HTTPS to prevent token interception
-- Implement a strong Content Security Policy (CSP) to mitigate XSS risks:
+* Always use HTTPS to prevent token interception
+* Implement a strong Content Security Policy (CSP) to mitigate XSS risks:
     
     ```
     Content-Security-Policy: script-src 'self' https://trusted.cdn.com
     ```
     
-- Use shorter token expiration times:
+* Use shorter token expiration times:
     ```js
     Accounts._options.loginExpirationInDays = 7; // Instead of 90
     ```
     
-- Consider using sessionStorage for higher security (which Meteor supports):
+* Consider using sessionStorage for higher security (which Meteor supports):
     ```json
     {
 	    "packages": {
@@ -545,10 +545,10 @@ _generateStampedLoginToken() {
 
 **Trade-offs compared to JWT**:
 
-- **Database Dependency**: Every authenticated request requires a database lookup
-- **No Built-in Claims**: JWTs can contain claims (user roles, permissions, etc.) that can be verified without a database lookup
-- **No Standard Format**: JWTs follow a standard format with broad library support across languages
-- **No Built-in Expiration**: Meteor manually tracks expiration rather than using JWT's built-in expiration claims
+* **Database Dependency**: Every authenticated request requires a database lookup
+* **No Built-in Claims**: JWTs can contain claims (user roles, permissions, etc.) that can be verified without a database lookup
+* **No Standard Format**: JWTs follow a standard format with broad library support across languages
+* **No Built-in Expiration**: Meteor manually tracks expiration rather than using JWT's built-in expiration claims
 
 ### Conclusion
 
