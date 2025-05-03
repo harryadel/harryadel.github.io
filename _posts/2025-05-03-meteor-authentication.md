@@ -7,6 +7,26 @@ categories: [meteorjs, oss]
 
 Meteor's accounts packages are one of the framework's most powerful features, streamlining authentication with minimal hassle. This article explores how Meteor's authentication works internally, following the complete login flow from client-side initiation to server validation and session management.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [The Authentication Flow](#the-authentication-flow)
+  - [1. Client-Side Login Initiation](#1-client-side-login-initiation)
+  - [2. Password Preparation and Method Call](#2-password-preparation-and-method-call)
+  - [3. Server-Side Login Handling](#3-server-side-login-handling)
+    - [3.1. Running Login Handlers](#31-running-login-handlers)
+    - [3.2. Attempting Login](#32-attempting-login)
+  - [4. Token Generation and Association](#4-token-generation-and-association)
+  - [5. Client-Side Token Storage](#5-client-side-token-storage)
+  - [6. DDP Connection Association](#6-ddp-connection-association)
+  - [7. Automatic Token Resume](#7-automatic-token-resume)
+- [Design Considerations and Trade-offs](#design-considerations-and-trade-offs)
+  - [1. Tight Integration with DDP & MongoDB](#1-tight-integration-with-ddp--mongodb)
+  - [2. Two-Stage Password Hashing](#2-two-stage-password-hashing)
+  - [3. Client-Side Storage Mechanism](#3-client-side-storage-mechanism)
+  - [4. Token Lifetime Considerations](#4-token-lifetime-considerations)
+  - [5. Simple Tokens vs. JWT](#5-simple-tokens-vs-jwt)
+- [Conclusion](#conclusion)
+
 ## Introduction
 
 Meteor's accounts system is widely recognized as a key factor in the framework's success. It provides a clean, straightforward approach to implementing user authentication while maintaining security and flexibility. Let's dive into how this system works behind the scenes.
