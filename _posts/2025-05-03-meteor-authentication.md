@@ -29,7 +29,7 @@ Meteor's accounts packages are one of the framework's most powerful features, st
 
 ## Introduction
 
-Meteor's accounts system is widely recognized as a key factor in the framework's success. It provides a clean, straightforward approach to implementing user authentication while maintaining security and flexibility. Let's dive into how this system works behind the scenes.
+Meteor's accounts system is widely recognized as a key factor in the framework's success. It provides a clean, straightforward approach to implementing user authentication while maintaining security and flexibility. Let's dive into how this system works behind the scenes. While Meteor supports multiple authentication mechanisms including OAuth and custom strategies, this article will focus primarily on the standard password-based authentication flow provided by the `accounts:password` package.
 
 ## The Authentication Flow
 
