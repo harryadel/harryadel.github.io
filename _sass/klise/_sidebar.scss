@@ -148,6 +148,43 @@ main h2 {
   }
 }
 
+// Theme toggle styles
+.theme-toggle {
+  margin-top: auto;
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-top: 1px solid $light;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  
+  a#mode {
+    display: inline-flex;
+    margin-right: 10px;
+    padding: 6px;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.05);
+      transform: rotate(15deg);
+    }
+    
+    svg {
+      stroke: $black;
+    }
+  }
+  
+  .theme-label {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    font-weight: normal;
+  }
+}
+
 // Dark mode adjustments
 body[data-theme="dark"] {
   .sidebar {
@@ -157,5 +194,23 @@ body[data-theme="dark"] {
   
   .main-content {
     background-color: $dark-black;
+  }
+  
+  .theme-toggle {
+    border-top-color: $dark-light;
+    
+    a#mode {
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+      
+      svg {
+        stroke: $dark-white;
+      }
+    }
+    
+    .theme-label {
+      color: $dark-white;
+    }
   }
 }
