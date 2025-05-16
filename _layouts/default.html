@@ -26,13 +26,17 @@ layout: compress
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
-  {% include navbar.html %}
   <div class="wrapper">
-    {% include author.html %}
-    <main aria-label="Content">
-      {{ content }}
-    </main>
-    {% include footer.html %}
+    <div class="sidebar">
+      {% include author.html %}
+      {% include navbar.html %}
+    </div>
+    <div class="main-content">
+      <main aria-label="Content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
   </div>
 </body>
 </html>

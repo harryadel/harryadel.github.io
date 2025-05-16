@@ -60,4 +60,72 @@ $on-widescreen: 1152px;
 
 // Import sass files
 @import "klise/fonts", "klise/base", "klise/layout", "klise/post",
-  "klise/miscellaneous", "klise/syntax", "klise/dark", "klise/tags";
+  "klise/miscellaneous", "klise/syntax", "klise/dark", "klise/tags", "klise/sidebar";
+
+// Import sidebar styles last to ensure they override default styles
+@import "klise/sidebar";
+
+// Import sidebar styles last to ensure they override default styles
+// All sidebar-specific styles are now in _sidebar.scss
+
+// Adjust author styles for sidebar
+.author {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+// Adjust navbar for sidebar
+.navbar {
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  .trigger {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menu-link {
+    margin-bottom: 10px;
+    
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+  
+  a#mode {
+    float: none;
+    position: static;
+    margin-bottom: 20px;
+  }
+}
+
+// Mobile responsive adjustments
+@include media-query($on-mobile) {
+  .wrapper {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid $light;
+    padding: $spacing-half;
+  }
+  
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+    padding: $spacing-half;
+  }
+  
+  .author {
+    margin-bottom: 1rem;
+  }
+}

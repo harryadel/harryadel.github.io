@@ -1,3 +1,14 @@
+// Wrapper
+.wrapper {
+  position: relative;
+  @extend %clearfix;
+
+  @include media-query($on-mobile) {
+    padding-right: $spacing-half;
+    padding-left: $spacing-half;
+  }
+}
+
 // Navbar
 .navbar {
   height: auto;
@@ -231,8 +242,9 @@
 // List of posts
 .post-item {
   display: flex;
-  padding-top: 5px;
-  padding-bottom: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
   @extend %clearfix;
 
   &:not(:first-child) {
@@ -240,10 +252,10 @@
   }
 
   .post-item-date {
-    min-width: 96px;
+    min-width: 120px;
     color: $black;
     font-weight: 700;
-    padding-right: 10px;
+    padding-right: 20px;
 
     @include media-query($on-mobile) {
       font-size: 16px;
@@ -254,9 +266,11 @@
     margin: 0;
     border: 0;
     padding: 0;
-    font-size: $base-font-size;
+    font-size: 1.1rem;
     font-weight: normal;
     letter-spacing: 0.1px;
+    flex: 1;
+    width: 100%;
 
     a {
       color: $text-base-color;

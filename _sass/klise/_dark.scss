@@ -152,6 +152,16 @@ body[data-theme="dark"] {
       }
     }
   }
+  
+  // Sidebar Layout
+  .sidebar {
+    background-color: $dark-black;
+    border-right-color: $dark-light;
+  }
+  
+  .main-content {
+    background-color: $dark-black;
+  }
 
   // Post Item
   .post-item {
