@@ -2,7 +2,7 @@
 layout: post
 title:  "Dev Diary #4"
 date:   2024-5-2 5:34:00 pm
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 Greetings! This month contains lots of code and package updates, unlike the previous month. A new version of [aldeed:collection2](https://github.com/Meteor-Community-Packages/meteor-collection2/pull/449) is being worked on, that allows Collection2 to be compatible with the latest RC and fixes a minor bug.

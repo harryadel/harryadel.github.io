@@ -2,7 +2,7 @@
 layout: post
 title:  "Dev Diary #2"
 date:   2024-3-2 11:41:00 am
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 Another month, another set of updates. This month hasn't been filled with much PRs compared to the last month partially due to the fact I've already migrated most of the packages we use at our company. But hey quality not quantity, right? :D 

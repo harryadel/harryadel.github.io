@@ -2,7 +2,7 @@
 layout: post
 title:  "Dev Diary #1"
 date:   2024-2-3 1:40:00 am
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 Hi, I intend now to publish a mini-blog post at the end of each month to illustrate what I've been working on and to communicate my plans to my sponsors.

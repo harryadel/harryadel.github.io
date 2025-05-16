@@ -2,7 +2,7 @@
 layout: post
 title: "How I Got Into Web Development"
 date: 2025-01-24 12:16:00 pm
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 I've been meaning to document my journey into web development for quite some time. Recently, I was asked to share some fun facts about myself as I'm about to be inducted into the Meteor ambassador program. It felt like the perfect moment to finally write this down.

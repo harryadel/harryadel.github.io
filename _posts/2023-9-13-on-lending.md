@@ -2,7 +2,7 @@
 layout: post
 title:  "Lending Money"
 date:   2023-9-13 4:05:01 pm
-categories: [personal,money, finance, others]
+tags: [personal, money, finance, others]
 ---
 
 Lending is one of the those great financial lessons that we're never taught and we all have to figure it out via the hard way later

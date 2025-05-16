@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript Roadmap"
 date:   2024-11-30 12:16:00 pm
-categories: [javascript, roadmap]
+tags: [javascript, roadmap]
 ---
 
 # A Practical Roadmap for Learning JavaScript and Node.js

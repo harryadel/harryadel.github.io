@@ -2,7 +2,7 @@
 layout: post
 title:  "My Army Experience"
 date:   2023-11-22 1:26:10 pm
-categories: [personal, army]
+tags: [personal, army]
 ---
 
 Inspired by [Logaretm](https://web.archive.org/web/20210117210526/https://logaretm.com/blog/2019-04-12-my-army-experience/) I though I would write about my own army experience as a fellow Egyptian. I've finished my military service on the 1st of September.

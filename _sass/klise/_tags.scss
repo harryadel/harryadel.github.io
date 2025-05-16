@@ -1,0 +1,118 @@
+// Tags styling for archive and post pages
+
+// Post item structure in archive
+.post-item {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+// Post item tags in archive
+.post-item-tags {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--light-text-color);
+  
+  .tag-icon {
+    margin-right: 0.4rem;
+    stroke: #e91e63;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .tag {
+    color: #e91e63;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Tags in post header
+.header {
+  .tags {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    
+    span:first-child {
+      font-size: 0.9rem;
+      color: var(--text-base-color);
+      margin-right: 0.4rem;
+    }
+    
+    .tag {
+      color: var(--text-link-blue);
+      text-decoration: none;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Tags page styling
+.archive-tags {
+  margin-bottom: 2rem;
+  
+  .tag-item {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    background-color: var(--light);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--text-base-color);
+    border: 1px solid var(--light-text-color);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: var(--text-link-blue);
+      color: var(--white);
+      border-color: var(--text-link-blue);
+    }
+    
+    &.active {
+      background-color: var(--text-link-blue);
+      color: var(--white);
+      border-color: var(--text-link-blue);
+    }
+  }
+}
+
+// Dark mode adjustments
+.dark {
+  .post-item-tags {
+    color: var(--dark-text-base-color);
+    
+    .tag-icon {
+      stroke: var(--dark-text-base-color);
+    }
+  }
+  
+  .header .tags span:first-child {
+    color: var(--dark-text-base-color);
+  }
+  
+  .archive-tags .tag-item {
+    background-color: var(--dark-light);
+    border-color: var(--dark-light);
+    color: var(--dark-text-base-color);
+    
+    &:hover, &.active {
+      background-color: var(--text-link-blue);
+      color: var(--white);
+      border-color: var(--text-link-blue);
+    }
+  }
+}

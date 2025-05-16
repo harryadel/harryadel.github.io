@@ -2,7 +2,7 @@
 layout: post
 title:  "Meteor Impact"
 date:   2020-11-4 10:10:01 pm
-categories: [meteorjs, talk]
+tags: [meteorjs, talk]
 ---
 
 Recently, I [presented](https://docs.google.com/presentation/d/12dH-dFrk0VdSDK6TY5QwJCEOMBSh3OXCI-vr_77iJp8/edit?usp=sharing) my first *online* talk ever at [Meteor Impact](impact.meteor.com/). The talk was called "Securing Your Meteor Application" detailing my learnings about Meteor's security and the tips I learnt reading [Secure Meteor](https://www.securemeteor.com/). 

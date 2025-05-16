@@ -2,7 +2,7 @@
 layout: post
 title: "Open Source, Gratefulness and Self-interest"
 date: 2025-04-09 12:16:00 pm
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 ## An Unexpected Gift

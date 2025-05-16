@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Meteor's Authentication System: An In-Depth Look"
 date: 2025-05-03 12:16:00 am
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 Meteor's accounts packages are one of the framework's most powerful features, streamlining authentication with minimal hassle. This article explores how Meteor's authentication works internally, following the complete login flow from client-side initiation to server validation and session management.

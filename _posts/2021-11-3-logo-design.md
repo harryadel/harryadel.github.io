@@ -2,7 +2,7 @@
 layout: post
 title:  "Sacha designed me a logo!"
 date:   2021-11-3 1:40:00 am
-categories: [meteorjs, logo, sacha]
+tags: [meteorjs, logo, sacha]
 ---
 
 For a long time, I've been a fan of [Sacha's logo](https://github.com/SachaG). It's simple, instantly recognizable and it's privacy friendly as I'm not a big fan of showing my face online. And, I've been meaning for quite sometime to improve my online presence/persona where you'd be able to recognize who I'm on [Github](https://github.com/harryadel), [Stackoverflow](https://stackoverflow.com/users/6688795/harry-adel) or even [Meteor forums](https://forums.meteor.com/u/harry97/summary).

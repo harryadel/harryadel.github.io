@@ -2,7 +2,7 @@
 layout: post
 title:  "Dev Diary #6"
 date:   2024-7-06 4:47:00 pm
-categories: [meteorjs, oss]
+tags: [meteorjs, oss]
 ---
 
 Hello, this month was much more fruitful in terms of open source contributions and overall activities. We released a new version of [collection-2](https://github.com/Meteor-Community-Packages/meteor-collection2/pull/449) that's compliant with the latest RC, including a minor code [fix](https://github.com/Meteor-Community-Packages/meteor-collection2/issues/448).
