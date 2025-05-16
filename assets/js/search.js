@@ -3,25 +3,16 @@
   // Initialize search index
   const searchIndex = [];
   
-  // Function to extract post data from archive page
-  async function extractPostsFromArchive() {
+  // Function to extract post data from the current page
+  function extractPostsFromPage() {
     try {
-      // First try to load the archive page
-      const response = await fetch('/archive/');
-      if (!response.ok) {
-        throw new Error('Could not load archive page');
-      }
-      
-      const html = await response.text();
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      
-      // Extract posts from the archive page
-      const postItems = doc.querySelectorAll('.post-item');
+      // Get posts directly from the current page
+      const postItems = document.querySelectorAll('.post-item');
       
       postItems.forEach(item => {
         const titleElement = item.querySelector('.post-item-title a');
         const dateElement = item.querySelector('.post-item-date');
+        const tagElements = item.querySelectorAll('.post-item-tags .tag');
         
         if (titleElement) {
           // Extract post data
@@ -29,11 +20,14 @@
           const url = titleElement.getAttribute('href');
           const date = dateElement ? dateElement.textContent.trim() : '';
           
+          // Extract tags directly from the page
+          const tags = [];
+          tagElements.forEach(tagEl => {
+            tags.push(tagEl.textContent.trim());
+          });
+          
           // Get post content by fetching the post page
           fetchPostContent(url).then(content => {
-            // Extract tags from post content if available
-            const tags = extractTagsFromContent(content);
-            
             // Add to search index
             searchIndex.push({
               title: title,
@@ -140,5 +134,5 @@
   }
   
   // Start extracting posts when DOM is loaded
-  document.addEventListener('DOMContentLoaded', extractPostsFromArchive);
+  document.addEventListener('DOMContentLoaded', extractPostsFromPage);
 })();
