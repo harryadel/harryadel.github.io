@@ -37,7 +37,6 @@ layout: compress
       <main class="page-content" aria-label="Content">
         <article itemscope itemtype="https://schema.org/BlogPosting">
 
-        <header class="header">
           {% if page.tags and page.tags != empty %}
           <div class="post-item-tags">
             <svg class="tag-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
@@ -48,7 +47,7 @@ layout: compress
             </span>
           </div>
           {% endif %}
-          <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
+          <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.date %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -60,12 +59,8 @@ layout: compress
             <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
               {{ page.date | date: "%b %d, %Y" }}
             </time>
-            <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
-            <span hidden itemprop="image">{{ page.image }}</span>
-            <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
           </div>
           {% endif %}
-        </header>
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
