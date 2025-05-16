@@ -181,17 +181,20 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @include media-query($on-mobile) {
     margin-bottom: 3em;
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -200,6 +203,8 @@
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
     opacity: 1;
+    object-fit: cover;
+    object-position: center;
   }
 
   .author-name {
@@ -349,6 +354,7 @@
     padding: 10px 10px 10px 35px;
     color: $text-base-color;
     -webkit-appearance: none;
+    appearance: none;
     font-size: $base-font-size;
     background-color: rgba(128, 128, 128, 0.1);
     border: 1px solid rgba(128, 128, 128, 0.1);
