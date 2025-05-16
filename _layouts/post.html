@@ -28,10 +28,14 @@ layout: compress
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
-  {% include navbar.html %}
-  <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-      <article itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="wrapper">
+    <div class="sidebar">
+      {% include author.html %}
+      {% include navbar.html %}
+    </div>
+    <div class="main-content">
+      <main class="page-content" aria-label="Content">
+        <article itemscope itemtype="https://schema.org/BlogPosting">
 
         <header class="header">
           {% if page.tags and page.tags != empty %}
@@ -77,16 +81,18 @@ layout: compress
         {% include comments.html %}
       {% endif %}
 
-    </main>
+        </article>
+      </main>
+      
+      {% if page.modified %}
+        <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
+      {% endif %}
+      {% if page.next or page.previous %}
+        {% include navigation.html %}
+      {% endif %}
 
-    {% if page.modified %}
-      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
-    {% endif %}
-    {% if page.next or page.previous %}
-      {% include navigation.html %}
-    {% endif %}
-
-    {% include footer.html %}
+      {% include footer.html %}
+    </div>
   </div>
 </body>
 
