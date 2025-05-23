@@ -82,8 +82,17 @@ exclude:
   - klise-*.gem
   - klise.gemspec
 
+# SEO settings
+social:
+  name: Harry Adel
+  links:
+    - https://github.com/harryadel
+    - https://twitter.com/harryadel
+    - https://www.linkedin.com/in/harryadel/
+
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-seo-tag

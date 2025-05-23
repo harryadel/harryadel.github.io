@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of all content
+Sitemap: https://harryadel.github.io/sitemap.xml
+
+# Disallow crawling of certain files
+Disallow: /assets/favicons/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /404.html

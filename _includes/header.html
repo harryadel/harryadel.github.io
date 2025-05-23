@@ -7,10 +7,15 @@
   <meta name="application-name" content="{{ site.title }}" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
+  
+  <!-- Title fallback if SEO tag doesn't work -->
   <title>
     {% if page.title %}{{ page.title | escape }} - {{ site.title }}{% else %}{{
     site.title | escape }}{% endif %}
   </title>
+  
+  <!-- Jekyll SEO Tag plugin -->
+  {% seo title=false %}
   <link
     rel="alternate"
     href="{{
