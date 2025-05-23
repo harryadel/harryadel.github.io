@@ -1,0 +1,34 @@
+// Reading Progress Bar
+.reading-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.reading-progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: var(--progress-bar-color, #ff5277);
+  transition: width 0.1s ease;
+}
+
+// Dark mode support
+[data-theme="dark"] {
+  --progress-bar-color: #ff5277;
+}
+
+// Light mode support
+:root {
+  --progress-bar-color: #003fff;
+}
+
+// Mobile adjustments
+@media screen and (max-width: 768px) {
+  .reading-progress-container {
+    height: 3px;
+  }
+}

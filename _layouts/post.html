@@ -7,6 +7,11 @@ layout: compress
 
 {% include header.html %}
 
+<!-- Reading Progress Bar -->
+<div class="reading-progress-container">
+  <div class="reading-progress-bar" id="reading-progress-bar"></div>
+</div>
+
 <body data-theme="{{ site.mode }}" class="notransition" dir="{{ page.direction | default: "ltr" }}">
 
   <script>
@@ -107,6 +112,45 @@ layout: compress
       {% include footer.html %}
     </div>
   </div>
+  
+  <!-- Reading Progress JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const progressBar = document.getElementById('reading-progress-bar');
+      const article = document.querySelector('article');
+      
+      if (progressBar && article) {
+        // Calculate reading position
+        const calculateReadingProgress = () => {
+          const articleBox = article.getBoundingClientRect();
+          const windowHeight = window.innerHeight;
+          const articleHeight = articleBox.height;
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          
+          // Start position (when article top reaches viewport top)
+          const startPosition = Math.max(0, articleBox.top + scrollTop - 100);
+          
+          // End position (when article bottom reaches viewport bottom)
+          const endPosition = startPosition + articleHeight - windowHeight;
+          
+          // Current scroll position relative to article
+          const currentPosition = scrollTop - startPosition;
+          
+          // Calculate percentage
+          let percentage = Math.max(0, Math.min(100, (currentPosition / (endPosition - startPosition)) * 100));
+          
+          // Update progress bar width
+          progressBar.style.width = percentage + '%';
+        };
+        
+        // Update on scroll
+        window.addEventListener('scroll', calculateReadingProgress);
+        
+        // Initial calculation
+        calculateReadingProgress();
+      }
+    });
+  </script>
 </body>
 
 </html>
