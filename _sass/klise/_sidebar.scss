@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 
+// Use CSS variables for consistent spacing and sizing
+
 body {
   margin: 0;
   padding: 0;
@@ -31,6 +33,12 @@ body {
   background-color: $white;
   overflow-y: auto;
   z-index: 1;
+  
+  // Typography enhancements
+  font-family: var(--font-sans);
+  
+  // Add subtle shadow for depth
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.05);
 }
 
 .main-content {
@@ -105,13 +113,50 @@ main h2 {
     width: 100%;
     max-width: 100%;
     
+    // Typography enhancements for headings
     h1, h2, h3, h4, h5, h6 {
       width: 100%;
+      font-family: var(--font-heading);
+      line-height: var(--line-height-tight);
+      letter-spacing: var(--letter-spacing-tight);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
     }
     
+    h1 {
+      font-size: var(--font-size-3xl);
+      font-weight: var(--font-weight-bold);
+    }
+    
+    h2 {
+      font-size: var(--font-size-2xl);
+      font-weight: var(--font-weight-semibold);
+    }
+    
+    h3 {
+      font-size: var(--font-size-xl);
+    }
+    
+    // Typography enhancements for content
     p, ul, ol, blockquote, pre, figure {
       width: 100%;
-      max-width: 100%;
+      max-width: 70ch; // Optimal reading length
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+      line-height: var(--line-height-loose);
+      letter-spacing: var(--letter-spacing-loose);
+    }
+    
+    // Code blocks with enhanced typography
+    pre {
+      font-family: var(--font-mono);
+      font-size: var(--font-size-sm);
+      border-radius: 4px;
+    }
+    
+    code {
+      font-family: var(--font-mono);
+      font-size: 0.9em;
     }
   }
 }

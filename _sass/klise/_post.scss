@@ -4,6 +4,11 @@
     padding-left: $spacing-half;
     padding-right: $spacing-half;
   }
+  
+  // Optimal reading width
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Post title

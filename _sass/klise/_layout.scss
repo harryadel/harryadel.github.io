@@ -2,10 +2,15 @@
 .wrapper {
   position: relative;
   @extend %clearfix;
+  
+  // Prepare for sidebar layout
+  display: flex;
+  flex-direction: row;
 
   @include media-query($on-mobile) {
     padding-right: $spacing-half;
     padding-left: $spacing-half;
+    flex-direction: column;
   }
 }
 
