@@ -178,14 +178,18 @@
       align-items: center;
       background-color: $white;
       height: 100vh;
-      width: 100%;
+      width: 100vw;
       top: 0;
+      left: 0;
+      z-index: 9999;
+      filter: none !important;
     }
 
     .menu-link {
       display: block;
       box-sizing: border-box;
       font-size: 1.1em;
+      filter: none !important;
 
       &:not(:last-child) {
         margin: 0;

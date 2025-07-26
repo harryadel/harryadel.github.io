@@ -151,6 +151,7 @@ body[data-theme="dark"] {
 
         input[type="checkbox"]:checked ~ .trigger {
           background: $dark-black;
+          filter: none !important;
         }
       }
     }
