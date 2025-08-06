@@ -7,13 +7,10 @@ description: Support Harry Adel's open source contributions and community work t
 
 ## 🌟 Why Support Me?
 
-I actively contribute to the developer community through:
+I've been actively contributing to the Meteor community ever since I joined it—whether through actual development work or simply spreading the good word about Meteor. 
 
-### **Open Source Projects**
-- **[AI-ML-Driven-Companies-In-Egypt](https://github.com/harryadel/AI-ML-Driven-Companies-In-Egypt)** (947+ stars) - Comprehensive list of AI/ML companies in Egypt
-- **[awesome-meteor-jobs](https://github.com/harryadel/awesome-meteor-jobs)** - Exclusive Meteor.js job listings for the community
-- **[blastjs](https://github.com/harryadel/blastjs)** - Standalone Meteor packages for easier development
-- **[awesome-meteor-developers](https://github.com/harryadel/awesome-meteor-developers)** - Supporting fellow developers
+Open source takes significant time and effort, often pulling away from my personal projects and income-generating work. I'd love to turn these OSS efforts into something greater and, who knows, maybe even work full-time on open source someday!
+
 
 ## 💖 Ways to Support
 
