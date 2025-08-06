@@ -52,62 +52,6 @@ Choose your preferred payment method:
   </div>
 </div>
 
-## 🎯 How Your Support Helps
-
-Your contributions enable me to:
-
-- ⏰ **Dedicate more time** to open source projects
-- 🛠️ **Maintain and improve** existing packages and tools
-- 📖 **Create educational content** and tutorials
-- 🌱 **Start new projects** that benefit the community
-- 💻 **Upgrade development tools** and infrastructure
-- 🤝 **Attend conferences** and community events
-
-## 🎁 Sponsor Benefits
-
-### **Monthly Sponsors** receive:
-- 🏷️ **Name/logo** in project READMEs
-- 💌 **Monthly updates** on my work and projects
-- 🎯 **Priority support** for issues and questions
-- 📢 **Early access** to new projects and content
-- 🤝 **Direct communication** for collaboration opportunities
-
-### **All Supporters** get:
-- 🙏 **Public recognition** (if desired)
-- 📈 **Impact reports** showing how contributions are used
-- 💝 **My sincere gratitude** and community appreciation
-
-## 🌐 Other Ways to Support
-
-Can't donate but still want to help? Here are other valuable ways:
-
-### **Spread the Word**
-- ⭐ **Star my repositories** on GitHub
-- 🔄 **Share my projects** with your network
-- 📝 **Write about** my tools or tutorials
-- 💬 **Mention me** in relevant discussions
-
-### **Contribute**
-- 🐛 **Report bugs** and suggest improvements
-- 🔧 **Submit pull requests** with fixes or features
-- 📚 **Improve documentation** and examples
-- 🎨 **Design assets** like logos or graphics
-
-### **Collaborate**
-- 🤝 **Partner on projects** that benefit the community
-- 📢 **Invite me to speak** at events or meetups
-- 💼 **Recommend my services** to those who need them
-- 🎓 **Share learning opportunities** and resources
-
-## 📊 Transparency
-
-I believe in transparency about how support is used:
-
-- 📈 **Regular updates** on funded projects and improvements
-- 💰 **Open about** how donations support my work
-- 🎯 **Clear goals** for what I'm working toward
-- 📝 **Detailed reports** on community impact
-
 ## 🤝 Current Sponsors
 
 *Thank you to all my supporters!*
