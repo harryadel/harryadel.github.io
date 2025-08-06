@@ -19,18 +19,6 @@ I actively contribute to the developer community through:
 - **[blastjs](https://github.com/harryadel/blastjs)** - Standalone Meteor packages for easier development
 - **[awesome-meteor-developers](https://github.com/harryadel/awesome-meteor-developers)** - Supporting fellow developers
 
-### **Community Contributions**
-- 📝 **Technical blog posts** sharing knowledge and experiences
-- 🎯 **Meteor.js expertise** and community support
-- 💬 **Active participation** in developer forums and Stack Overflow
-- 🚀 **Open source maintenance** and package development
-
-### **Knowledge Sharing**
-- 📚 **Documentation** and tutorials
-- 🔧 **Code reviews** and mentoring
-- 💡 **Best practices** and industry insights
-- 🌐 **Global developer community** engagement
-
 ## 💖 Ways to Support
 
 ### **Monthly Sponsorship**
