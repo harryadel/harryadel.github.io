@@ -161,3 +161,62 @@ $on-widescreen: 1152px;
     }
   }
 }
+
+// Hire Me CTA Styles
+.hire-me-cta {
+  margin-top: 1.5rem;
+  text-align: center;
+  
+  .hire-me-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    border: none;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+      color: white;
+      text-decoration: none;
+    }
+    
+    &:active {
+      transform: translateY(0);
+    }
+  }
+  
+  .hire-me-subtitle {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: $gray;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+}
+
+// Dark mode styles for hire me CTA
+body[data-theme="dark"] {
+  .hire-me-cta {
+    .hire-me-button {
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+      
+      &:hover {
+        box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        color: white;
+      }
+    }
+    
+    .hire-me-subtitle {
+      color: $dark-gray;
+    }
+  }
+}
