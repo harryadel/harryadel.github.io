@@ -126,6 +126,11 @@ $on-widescreen: 1152px;
     width: 100%;
     margin-left: 0;
     padding: $spacing-half;
+    
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
+    }
   }
   
   .author {
@@ -135,12 +140,24 @@ $on-widescreen: 1152px;
     flex-direction: column;
     align-items: center;
     
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
+    }
+    
     .author-avatar {
       width: 100px;
       height: 100px;
       object-fit: contain;
       background-color: transparent;
       margin: 0 auto;
+    }
+  }
+  
+  .theme-toggle {
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
     }
   }
 }

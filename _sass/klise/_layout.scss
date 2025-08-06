@@ -183,6 +183,17 @@
       left: 0;
       z-index: 9999;
       filter: none !important;
+      -webkit-filter: none !important;
+      
+      .trigger-container {
+        filter: none !important;
+        -webkit-filter: none !important;
+      }
+      
+      * {
+        filter: none !important;
+        -webkit-filter: none !important;
+      }
     }
 
     .menu-link {
@@ -190,10 +201,26 @@
       box-sizing: border-box;
       font-size: 1.1em;
       filter: none !important;
+      -webkit-filter: none !important;
 
       &:not(:last-child) {
         margin: 0;
         padding: 2px 0;
+      }
+      
+      svg {
+        filter: none !important;
+        -webkit-filter: none !important;
+      }
+    }
+    
+    .menu-icon {
+      filter: none !important;
+      -webkit-filter: none !important;
+      
+      svg {
+        filter: none !important;
+        -webkit-filter: none !important;
       }
     }
   }

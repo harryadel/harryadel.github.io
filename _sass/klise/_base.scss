@@ -278,6 +278,10 @@ blockquote {
     &.blurry {
       animation: 0.2s ease-in forwards blur;
       -webkit-animation: 0.2s ease-in forwards blur;
+      .menu-link {
+        filter: none;
+        -webkit-filter: none;
+      }
     }
   }
 }

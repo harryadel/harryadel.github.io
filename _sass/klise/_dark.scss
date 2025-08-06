@@ -152,6 +152,37 @@ body[data-theme="dark"] {
         input[type="checkbox"]:checked ~ .trigger {
           background: $dark-black;
           filter: none !important;
+          -webkit-filter: none !important;
+          
+          .trigger-container {
+            filter: none !important;
+            -webkit-filter: none !important;
+          }
+          
+          * {
+            filter: none !important;
+            -webkit-filter: none !important;
+          }
+        }
+        
+        .menu-link {
+          filter: none !important;
+          -webkit-filter: none !important;
+          
+          svg {
+            filter: none !important;
+            -webkit-filter: none !important;
+          }
+        }
+        
+        .menu-icon {
+          filter: none !important;
+          -webkit-filter: none !important;
+          
+          svg {
+            filter: none !important;
+            -webkit-filter: none !important;
+          }
         }
       }
     }
@@ -165,6 +196,25 @@ body[data-theme="dark"] {
   
   .main-content {
     background-color: $dark-black;
+    
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
+    }
+  }
+  
+  .author {
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
+    }
+  }
+  
+  .theme-toggle {
+    &.blurry {
+      animation: 0.2s ease-in forwards blur;
+      -webkit-animation: 0.2s ease-in forwards blur;
+    }
   }
 
   // Post Item

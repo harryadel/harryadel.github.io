@@ -23,9 +23,18 @@
   const cbox = document.getElementById("menu-trigger");
 
   cbox.addEventListener("change", function () {
-    const area = document.querySelector(".wrapper");
-    this.checked
-      ? area.classList.add("blurry")
-      : area.classList.remove("blurry");
+    const mainContent = document.querySelector(".main-content");
+    const author = document.querySelector(".author");
+    const themeToggle = document.querySelector(".theme-toggle");
+    
+    if (this.checked) {
+      if (mainContent) mainContent.classList.add("blurry");
+      if (author) author.classList.add("blurry");
+      if (themeToggle) themeToggle.classList.add("blurry");
+    } else {
+      if (mainContent) mainContent.classList.remove("blurry");
+      if (author) author.classList.remove("blurry");
+      if (themeToggle) themeToggle.classList.remove("blurry");
+    }
   });
 })();
