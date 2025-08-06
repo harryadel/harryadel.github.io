@@ -23,24 +23,10 @@ Why should you trust my expertise?
 
 Here are a few reasons:
 
-* **Self-taught developer** specializing in JavaScript with deep focus on Meteor.js framework
-* **Active Meteor community contributor** - I maintain several packages and help other developers
-* **Open source maintainer** with several popular projects:
-  * [AI-ML-Driven-Companies-In-Egypt](https://github.com/harryadel/AI-ML-Driven-Companies-In-Egypt) - A comprehensive list of AI/ML companies in Egypt (947 stars)
-  * [awesome-meteor-jobs](https://github.com/harryadel/awesome-meteor-jobs) - Exclusive Meteor-only job listings
-  * [blastjs](https://github.com/harryadel/blastjs) - Standalone Meteor packages
-  * [awesome-meteor-developers](https://github.com/harryadel/awesome-meteor-developers) - Supporting the Meteor community
-* **Experienced with modern JavaScript ecosystem**: Node.js, React, MongoDB, and full-stack development
-* **Strong problem solver** with experience in both frontend and backend development
-* **Community engagement**: Active on Meteor forums and Stack Overflow helping other developers
-* **GitHub achievements**: Arctic Code Vault Contributor, Pull Shark, and other recognition for open source contributions
-
-### My Tech Stack
-- **Primary**: Meteor.js, Node.js, JavaScript (ES6+)
-- **Frontend**: React, HTML5, CSS3/SCSS, responsive design
-- **Backend**: MongoDB, REST APIs, GraphQL
-- **Tools**: Git, GitHub, VS Code, Linux/Unix systems
-- **Deployment**: Various cloud platforms and hosting solutions
+* **[Successfully migrated a 10 year old application to 3.0](https://dev.to/meteor/the-meteor-30-migration-a-space-exploration-mission-3gb5)** Helped Trusted.care migrate their 10 year old application to 3.0
+* **[Led the migration of many meteor packages](https://forums.meteor.com/t/looking-for-help-migrating-packages-to-meteor-3-0/60985)** - Many community packages were in dire state and needed a push to 3.0 land
+* **[Core Developer](https://github.com/meteor/meteor/pulls?q=is%3Apr+author%3Aharryadel)** I actively participate in Meteor core development 
+* **[OSS Newsletter](https://harryadel.github.io/tags/#oss)** A monthy newsletter detailing my contributions each month
 
 ### What I can help you with:
 - **Meteor.js applications** from scratch or enhancement of existing projects
