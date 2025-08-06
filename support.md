@@ -5,10 +5,6 @@ permalink: /support/
 description: Support Harry Adel's open source contributions and community work through sponsorship, donations, or by spreading the word.
 ---
 
-# Support My Work
-
-Thank you for considering supporting my open source contributions and community work! Your support helps me dedicate more time to creating valuable resources for the developer community.
-
 ## 🌟 Why Support Me?
 
 I actively contribute to the developer community through:
