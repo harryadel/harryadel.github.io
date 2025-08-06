@@ -57,12 +57,8 @@ I'm based in **Cairo, Egypt** (UTC +03:00) and work with clients globally.
 
 ---
 
-### Support my work
-
-If you like my open source contributions and want to support me:
-
-* **PayPal**: [paypal.me/HAdel397](https://paypal.me/HAdel397)
-* **Bitcoin**: bc1qtpr3tslfyvacjuxxyl9v57gfr4cjvgk4alqpqp
-* **Monero**: 85rNKrJyw1DFdassuN4KckgPRTrD97pn2Tbgk2AFhVRaLeaJKeqKkoC7qRCvN4o8ryXNfB26YkUf1jnvxDJ1bz3SJGhi4cN
-
 *Let's build something amazing together!*
+
+### Support my open source work
+
+If you appreciate my contributions to the community, consider [supporting my work](/support/) through sponsorship or donations. Your support helps me dedicate more time to open source projects and community resources.
