@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Dev Diary #19 - GraphQL Package Upgrades, Grapher Improvements, and 3.4 Prep"
+date: 2025-09-03
+tags: [meteorjs, oss]
+---
+
+Whew, this has been quite the month! Thanks to my current employer [Determinds](https://determinds.com/), I was able to spend some time upgrading many GraphQL-related packages as they're used in one of our projects:
+
+- quave:graphql https://github.com/quavedev/meteor-packages/pull/17
+- orderlion:ddp-apollo, which is a fork of swydo:ddp-apollo https://github.com/orderlion/ddp-apollo/pull/1
+- cultofcoders:grapher-schema-directives https://github.com/cult-of-coders/grapher-schema-directives/pull/15
+
+I also made quite the contribution to Grapher, hopefully giving it the one final push it needs before the full release. You can check out the [PR](https://github.com/bhunjadi/grapher/pull/5) for a detailed view of what changes were made.
+
+This work also led me to create a little [PR](https://github.com/Meteor-Community-Packages/mongo-collection-instances/pull/42) to `dburles:mongo-collection-instances` that adds a note to use [Mongo.getCollection](https://docs.meteor.com/api/collections.html#Mongo-getCollection) instead, essentially rendering this package obsolete.
+
+The security section of the guide got some [updates](https://github.com/meteor/meteor/pull/13892) too. Overall, the guide really needs some work, so please don't be shy about chiming in.
+
+Another shout out to [Caught](https://caught.nu/), who, by letting me migrate their application, allowed me to fix another [bug](https://github.com/Meteor-Community-Packages/meteor-partitioner/pull/38) in the Partitioner package.
+
+This has been quite the month, and I'm glad we're bringing the overall ecosystem of community packages up to par in line with the next big release - [3.4](https://github.com/meteor/meteor/pull/13915).
