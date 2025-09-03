@@ -20,3 +20,4 @@ The security section of the guide got some [updates](https://github.com/meteor/m
 Another shout out to [Caught](https://caught.nu/), who, by letting me migrate their application, allowed me to fix another [bug](https://github.com/Meteor-Community-Packages/meteor-partitioner/pull/38) in the Partitioner package.
 
 This has been quite the month, and I'm glad we're bringing the overall ecosystem of community packages up to par in line with the next big release - [3.4](https://github.com/meteor/meteor/pull/13915).
+
