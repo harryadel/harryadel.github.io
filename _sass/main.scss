@@ -308,19 +308,82 @@ body[data-theme="dark"] {
   .crypto-section h4 {
     color: $dark-white;
   }
-  
+
   .crypto-option {
     background-color: $dark-light;
     border-left-color: #ff6b6b;
-    
+
     strong {
       color: $dark-white;
     }
   }
-  
+
   .crypto-address {
     background-color: $dark-smoke;
     border-color: $dark-light;
     color: $dark-white;
+  }
+}
+
+// Software Banner Styles
+.software-banner {
+  margin-top: 3em;
+  padding: 1.25rem 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 3px solid $text-link-blue;
+
+  .software-banner-title {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.85rem;
+    font-weight: $normal-weight;
+    color: $gray;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+  }
+
+  .software-item {
+    font-size: 0.95rem;
+    line-height: 1.5;
+
+    a {
+      color: $text-link-blue;
+      font-weight: $bold-weight;
+      text-decoration: none;
+
+      &:hover {
+        color: $text-link-blue-active;
+      }
+    }
+
+    .software-description {
+      color: $text-base-color;
+    }
+  }
+}
+
+// Dark mode styles for software banner
+body[data-theme="dark"] {
+  .software-banner {
+    background-color: $dark-light;
+    border-left-color: $dark-text-link-blue;
+
+    .software-banner-title {
+      color: $dark-gray;
+    }
+
+    .software-item {
+      a {
+        color: $dark-text-link-blue;
+
+        &:hover {
+          color: $dark-text-link-blue-active;
+        }
+      }
+
+      .software-description {
+        color: $dark-text-base-color;
+      }
+    }
   }
 }
