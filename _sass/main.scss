@@ -71,14 +71,14 @@ $on-widescreen: 1152px;
 // Adjust author styles for sidebar
 .author {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 // Adjust navbar for sidebar
 .navbar {
   border-bottom: none;
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .menu {
@@ -88,15 +88,19 @@ $on-widescreen: 1152px;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .menu-link {
     margin-bottom: 10px;
-    
+
     &:not(:last-child) {
       margin-right: 0;
     }
+
+    &.rss {
+      display: none;
+    }
   }
-  
+
   a#mode {
     float: none;
     position: static;
@@ -134,23 +138,25 @@ $on-widescreen: 1152px;
   }
   
   .author {
+    margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     &.blurry {
       animation: 0.2s ease-in forwards blur;
       -webkit-animation: 0.2s ease-in forwards blur;
     }
-    
+
     .author-avatar {
-      width: 100px;
-      height: 100px;
-      object-fit: contain;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
       background-color: transparent;
-      margin: 0 auto;
+      margin: 2rem auto 0;
     }
   }
   
@@ -164,7 +170,7 @@ $on-widescreen: 1152px;
 
 // Hire Me CTA Styles
 .hire-me-cta {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   text-align: center;
   
   .hire-me-button {

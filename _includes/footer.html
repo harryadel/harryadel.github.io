@@ -20,7 +20,7 @@
     galite.UA = "{{ site.google_analytics }}";
   </script>
 {%- endif -%}
-{%- if page.url == '/archive/' -%}
+{%- if page.url == '/archive/' or layout.home -%}
   <script src="/assets/js/search.min.js"></script>
   <script>
     var sjs = SimpleJekyllSearch({
@@ -28,5 +28,26 @@
       resultsContainer: document.getElementById('search-results'),
       json: '/assets/search.json',
     });
+    (function() {
+      var input = document.getElementById('search-input');
+      var results = document.getElementById('search-results');
+      var posts = document.getElementById('posts-list');
+      if (!input || !results || !posts) return;
+      input.addEventListener('input', function() {
+        if (this.value.trim().length > 0) {
+          posts.style.display = 'none';
+          results.style.display = '';
+        } else {
+          posts.style.display = '';
+          results.style.display = 'none';
+        }
+      });
+      input.addEventListener('search', function() {
+        if (this.value === '') {
+          posts.style.display = '';
+          results.style.display = 'none';
+        }
+      });
+    })();
   </script>
 {%- endif -%}

@@ -15,6 +15,7 @@ comments: false
 
 <ul id="search-results"></ul>
 
+<div id="posts-list">
 {%- for post in site.posts -%}
   {%- capture current_year -%}{{ post.date | date: "%Y" }}{%- endcapture -%}
   {%- unless current_year == previous_year -%}
@@ -36,3 +37,4 @@ comments: false
     {% endif %}
   </article>
 {%- endfor -%}
+</div>

@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Support My Work
+title: 🌟 Why Support Me?
 permalink: /support/
 description: Support Harry Adel's open source contributions and community work through sponsorship, donations, or by spreading the word.
 ---
-
-## 🌟 Why Support Me?
 
 I've been actively contributing to the Meteor community ever since I joined it—whether through actual development work or simply spreading the good word about Meteor. 
 
@@ -32,11 +30,6 @@ Choose your preferred payment method:
   
   <div class="crypto-section">
     <h4>Cryptocurrency</h4>
-    
-    <div class="crypto-option">
-      <strong>Bitcoin (BTC)</strong>
-      <code class="crypto-address">bc1qtpr3tslfyvacjuxxyl9v57gfr4cjvgk4alqpqp</code>
-    </div>
     
     <div class="crypto-option">
       <strong>Monero (XMR)</strong>

@@ -32,6 +32,10 @@ body {
   border-right: 1px solid $light;
   background-color: $white;
   overflow-y: auto;
+  scrollbar-width: none; // Firefox
+  &::-webkit-scrollbar {
+    display: none; // Chrome, Safari
+  }
   z-index: 1;
   
   // Typography enhancements
@@ -202,7 +206,7 @@ main h2 {
   cursor: pointer;
   border-top: 1px solid $light;
   padding-top: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   
   a#mode {
     display: inline-flex;
@@ -227,6 +231,31 @@ main h2 {
     font-size: 0.85rem;
     opacity: 0.7;
     font-weight: normal;
+  }
+}
+
+// Social links
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1rem;
+
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    color: $black;
+
+    &:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.05);
+      transform: translateY(-2px);
+    }
   }
 }
 
@@ -256,6 +285,14 @@ body[data-theme="dark"] {
     
     .theme-label {
       color: $dark-white;
+    }
+  }
+
+  .social-links .social-icon {
+    color: $dark-white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
     }
   }
 }
