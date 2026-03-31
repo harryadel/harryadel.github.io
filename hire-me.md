@@ -5,8 +5,6 @@ permalink: /hire-me/
 description: Need an experienced Meteor.js developer? I'm available for short to medium term contracts involving Meteor.js, Node.js, and JavaScript development.
 ---
 
-# I'm a Meteor.js freelancer for hire
-
 ## What can I do for you?
 
 I'm available for short to medium term contracts that involve programming in **Meteor.js** and **JavaScript**.
