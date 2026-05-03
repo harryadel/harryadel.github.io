@@ -35,7 +35,7 @@ The requirements are pretty straightforward:
 > - My time zone, because it’s important in remote work.
 > - A photo for that human connection.
 
-Here’s mine for reference: https://harryadel.com/hire-me/
+Here’s [mine](https://harryadel.com/hire-me/) for reference. 
 
 ## 2. Publish Technical Articles
 
@@ -49,19 +49,19 @@ Here are multiple ways I use to find ideas for what to post:
 
 Picking and choosing the right path and the right web courses to follow was a tiring process for me, so I put together what I’d mark as an ideal path for others to tread on:
 
-https://harryadel.com/js-roadmap/
+[JS Roadmap](https://harryadel.com/js-roadmap/)
 
 - What is a piece of information you recently stumbled upon and found interesting?
 
 While poking around Meteor internals, I came across a few interesting pieces of information about how Meteor publications work, so I put it in writing in case someone else finds it useful:
 
-https://harryadel.com/auto-publications/
+[Meteor's Hidden Auto Publications: The Free Data You Never Asked For](https://harryadel.com/auto-publications/)
 
 - Is there something that has been on your mind and you want to get out? Get it out in writing.
 
 The relationship between open source and how others perceive the developers maintaining it. Should they be grateful? Should they not be? I was so frustrated with this that I put it into writing:
 
-https://harryadel.com/opensource-gratefulness-selfishness/
+[Open Source, Gratefulness and Self-interest](https://harryadel.com/opensource-gratefulness-selfishness/)
 
 ## 2.1 Turn Experience Into Lead-Generating Artifacts
 
@@ -77,7 +77,7 @@ I basically take all of my monthly contributions and put them into article form 
 
 Here’s the latest dev diary:
 
-https://harryadel.com/dev-diary-27/
+[Dev Diary #27 - Async Accounts, OTPAuth, Migration Docs, and Ecosystem Maintenance](https://harryadel.com/dev-diary-27/)
 
 ### Migration Stories
 
