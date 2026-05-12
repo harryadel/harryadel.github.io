@@ -1,7 +1,13 @@
-<div class="software-banner">
+{% if site.software %}
+<div class="software-banner{% if include.placement %} software-banner--{{ include.placement }}{% endif %}">
   <h4 class="software-banner-title">try my software</h4>
+  {% for product in site.software %}
   <div class="software-item">
-    <a href="https://firely.app" target="_blank" rel="noopener">Firely</a>
-    <span class="software-description">- a personal Saas application to track your spending</span>
+    <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a>
+    {% if product.description %}
+    <span class="software-description">- {{ product.description }}</span>
+    {% endif %}
   </div>
+  {% endfor %}
 </div>
+{% endif %}

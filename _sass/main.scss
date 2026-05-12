@@ -368,6 +368,26 @@ body[data-theme="dark"] {
   }
 }
 
+.software-banner--sidebar {
+  width: 100%;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  .software-banner-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .software-item {
+    font-size: 0.9rem;
+  }
+
+  .software-description {
+    display: block;
+    margin-top: 0.2rem;
+  }
+}
+
 // Dark mode styles for software banner
 body[data-theme="dark"] {
   .software-banner {

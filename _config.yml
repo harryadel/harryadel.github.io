@@ -90,6 +90,11 @@ social:
     - https://twitter.com/harryadel2
     - https://www.linkedin.com/in/harryadel/
 
+software:
+  - name: Firely
+    url: https://firely.app
+    description: a personal Saas application to track your spending
+
 # Plugins
 plugins:
   - jekyll-feed
