@@ -5,7 +5,7 @@ date: 2026-06-21
 tags: [oss]
 ---
 
-![[screenshot-2026-06-21_20-58-46.png]]
+![Screenshot of the GitHub pull request discussion](/assets/img/screenshot-2026-06-21_20-58-46.png)
 
 [https://github.com/Meteor-Community-Packages/meteor-simple-schema/pull/755](https://github.com/Meteor-Community-Packages/meteor-simple-schema/pull/755)
 
