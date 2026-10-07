@@ -4,7 +4,7 @@ description: >- # site description
   A personal blog documenting things that I've learned, meet me <a href="https://github.com/harryadel" target="_blank" rel="noopener">@harryadel</a>.
 lang: en-US # default lang
 timezone: Africa/Cairo # set your timezone
-# image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+image: /assets/img/avatar.png # default Open Graph image, more info https://ogp.me/
 repo: https://github.com/harryadel/harryadel.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
@@ -16,11 +16,12 @@ author:
   #  meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
   username: harryadel # general username
   github: harryadel # github username
+  twitter: harryadel2 # twitter username
   email: harryadelb@gmail.com # email adress
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
-url: "https://harryadel.github.io" #
+url: "https://harryadel.com" #
 baseurl: ""
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -44,6 +45,7 @@ defaults:
     values:
       layout: post
       comments: false
+      image: /assets/img/avatar.png
 
 # Jekyll Compose default front matter
 jekyll_compose:
@@ -83,6 +85,10 @@ exclude:
   - klise.gemspec
 
 # SEO settings
+twitter:
+  username: harryadel2
+  card: summary
+
 social:
   name: Harry Adel
   links:
